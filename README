@@ -1,0 +1,22 @@
+= Session Management
+
+Created by Sandip Ransing Nov 2009. 
+
+Session Management allows us to track user information 
+
+Each site has its own independent sitemap/page-tree and these attributes:
+
+== Installation
+
+1) Unpack/checkout/export the extension into vendor/extensions of your 
+   project.
+
+2) Run the extension update task.
+
+  $ rake production radiant:extensions:session_management:update
+
+3) Restart your server
+
+== Acknowledgments
+
+Thanks to Localc car site, for inspiring me to write this extension
